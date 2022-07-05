@@ -1,7 +1,7 @@
 {
   "name": "newapp",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://timurzanin.github.io/veronika-web-site/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
