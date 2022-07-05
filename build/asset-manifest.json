@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Veronika-website/static/css/main.6a076199.css",
+    "main.js": "/Veronika-website/static/js/main.7e23077f.js",
+    "static/media/Video.mp4": "/Veronika-website/static/media/Video.3593e6a3a6ec7fcef270.mp4",
+    "static/media/pexels-mikhail-nilov-8419637.mp4": "/Veronika-website/static/media/pexels-mikhail-nilov-8419637.e9b4703d0a9ce66c7e0e.mp4",
+    "static/media/img1 (2).jpg": "/Veronika-website/static/media/img1 (2).daec4a2c0f5e5bceae37.jpg",
+    "static/media/image2.jpg": "/Veronika-website/static/media/image2.5a7c2f1c6931520b554c.jpg",
+    "static/media/IMG_7658.JPG": "/Veronika-website/static/media/IMG_7658.813bb90e0fb17b7c1e1d.JPG",
+    "static/media/IMG_1307.JPG.jpg": "/Veronika-website/static/media/IMG_1307.JPG.0e425580d61e93e39632.jpg",
+    "static/media/IMG_6798.JPG": "/Veronika-website/static/media/IMG_6798.c43ab82579f9eea6c74b.JPG",
+    "static/media/7939.JPG": "/Veronika-website/static/media/7939.e54ecba74829ef225607.JPG",
+    "static/media/IMG_2510.JPG": "/Veronika-website/static/media/IMG_2510.e964bfca91d0a45b75f3.JPG",
+    "static/media/edited.jpg": "/Veronika-website/static/media/edited.a686c2ea0226e503e9ee.jpg",
+    "static/media/img6.jpg": "/Veronika-website/static/media/img6.63f97ebdf45ea70928f2.jpg",
+    "static/media/photo1656967899.jpeg": "/Veronika-website/static/media/photo1656967899.1a40b669e14c1f2f859a.jpeg",
+    "static/media/photo1656877391.jpeg": "/Veronika-website/static/media/photo1656877391.7e8cbce4787ed0a8e268.jpeg",
+    "static/media/photo1656877940.jpeg": "/Veronika-website/static/media/photo1656877940.48b6e4ba062629823b2a.jpeg",
+    "static/media/img4.jpg": "/Veronika-website/static/media/img4.a3b960cec58169b0da1d.jpg",
+    "static/media/kaushan-script-all-400-normal.woff": "/Veronika-website/static/media/kaushan-script-all-400-normal.ba623d1ca520a2a711d2.woff",
+    "static/media/img3.jpg": "/Veronika-website/static/media/img3.4876fab5014a7cfa622f.jpg",
+    "static/media/img2.jpg": "/Veronika-website/static/media/img2.ef4917ad16e7ac5d3dbd.jpg",
+    "static/media/sirin-stencil-all-400-normal.woff": "/Veronika-website/static/media/sirin-stencil-all-400-normal.e1b8add18154b5d65682.woff",
+    "static/media/img1.jpg": "/Veronika-website/static/media/img1.a35eb5eae97d36089195.jpg",
+    "static/media/kaushan-script-latin-400-normal.woff2": "/Veronika-website/static/media/kaushan-script-latin-400-normal.2855d49bba6b2cb7bec5.woff2",
+    "static/media/sirin-stencil-latin-400-normal.woff2": "/Veronika-website/static/media/sirin-stencil-latin-400-normal.f668f96beabdc683277b.woff2",
+    "static/media/kaushan-script-latin-ext-400-normal.woff2": "/Veronika-website/static/media/kaushan-script-latin-ext-400-normal.5a05e21384fe4b1b9db7.woff2",
+    "index.html": "/Veronika-website/index.html",
+    "main.6a076199.css.map": "/Veronika-website/static/css/main.6a076199.css.map",
+    "main.7e23077f.js.map": "/Veronika-website/static/js/main.7e23077f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a076199.css",
+    "static/js/main.7e23077f.js"
+  ]
+}
