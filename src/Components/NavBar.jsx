@@ -1,9 +1,7 @@
-import { Menu } from '@mui/material';
 import React from 'react'
 import styled from 'styled-components'
 import { useState } from 'react';
 import { motion } from 'framer-motion'
-import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 
@@ -75,13 +73,13 @@ color: ${props => props.theme.text};
 export default function NavBar() {
 
     const [click, setClick] = useState(false);
-    const nev = useNavigate()
+    
 
 
     return (
         <NavContainer click={click}
             initial={{
-                y: `-100%`
+                y: '-100%'
             }}
             animate={{
                 y: 0

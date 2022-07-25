@@ -1,0 +1,31 @@
+.item {
+
+    min-width: 21rem;
+    padding: 50px;
+
+
+}
+
+.item img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    z-index: 10;
+  
+    display: flex;
+    margin-top: 6rem;
+
+    pointer-events: none;
+
+}
+
+.inner-carousel {
+    display: flex;
+}
+
+.carousel {
+    cursor: grab;
+
+
+}

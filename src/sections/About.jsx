@@ -21,12 +21,14 @@ const Title = styled.h1`
 font-size: ${props => props.theme.fontBig};
 font-family: 'Kaushan Script';
 font-weight: 300;
-
+color: white;
+text-shadow: 10rem 10px 10px ${props => props.theme.body};
 position: absolute;
 top: 1rem;
 left: 5%;
 z-index: 5;
 
+padding-right: 8px;
 
 `;
 
@@ -37,7 +39,8 @@ font-size: ${props => props.theme.fontlg};
 font-weight: 300;
 position: relative;
 z-index: 5;
-margin-top: 20%;
+margin-top: 17%;
+
 font-family: cursive;
 `;
 
@@ -57,7 +60,7 @@ img{
   width: 40%;
   position: absolute;
   right: 95%;
-  bottom: 10%;
+  bottom: 15%;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
 }
@@ -77,10 +80,11 @@ border-bottom-left-radius: 30px;
 
 export default function About() {
   return (
-    <Section id="fixed-target">
+    <Section id="fixed-target" >
       <Title data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal" >
         About Me
       </Title>
+      
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
 
         Veronika Zanina Professional Makeup & Hair Artist whit a passion for beauty and style.
@@ -107,11 +111,11 @@ export default function About() {
         <img
           data-scroll
           data-scroll-speed="5"
-          src={Vero3} alt="About Me" scrset="" />
+          src={Vero3} alt="About Me"  />
         <img
           data-scroll
           data-scroll-speed="-2"
-          src={Vero} className='small-img-1' alt="About Me" scrset="" />
+          src={Vero} className='small-img-1' alt="About Me"  />
         <img src={Vero2} className='small-img-2' alt="About Me" scrset="" />
       </Right>
 
@@ -121,6 +125,5 @@ export default function About() {
 
   )
 }
-
 
 

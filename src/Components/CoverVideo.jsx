@@ -29,7 +29,7 @@ right: 0;
 z-index: 1;
 
 background-color: ${props => `rgba(${props.theme.bodyRgba},0.1)`};
-`//function to change the color of the dark overlay
+`;//function to change the color of the dark overlay
 
 
 const Title = styled(motion.div)`
@@ -40,6 +40,7 @@ left: 0;
 right: 0;
 z-index: 5;
 text-shadow: 1px 1px 1px ${props => props.theme.body};
+
 display: flex;
 flex-direction: column;
 justify-content: center;   
@@ -53,9 +54,6 @@ div{
   flex-direction: row;
 }
 
-@media (max-width: 601px) {
-  font-size:10px
-}
 
 h1{
   font-Family: 'Kaushan Script';
@@ -119,7 +117,7 @@ export default function CoverVideo() {
       <Title variants={container} initial="hidden" animate="show">
         <div>
          
-          <motion.h1 variants={item} data-scroll data-scroll-speed='4' data-scroll-delay='0.13'>V</motion.h1>  {/* check scroll data */}
+          <motion.h1 variants={item} data-scroll data-scroll-speed='4' data-scroll-delay='0.13'>V</motion.h1> 
           <motion.h1 variants={item} data-scroll data-scroll-speed='4' data-scroll-delay='0.19'>e</motion.h1>
           <motion.h1 variants={item} data-scroll data-scroll-speed='4' data-scroll-delay='0.16'>r</motion.h1>
           <motion.h1 variants={item} data-scroll data-scroll-speed='4' data-scroll-delay='0.13'>o</motion.h1>
@@ -129,11 +127,11 @@ export default function CoverVideo() {
           <motion.h1 variants={item} data-scroll data-scroll-speed='4' data-scroll-delay='0.05'>a</motion.h1>
 
         </div>
-        {/* <h3 data-scroll data-scroll-speed='2' data-scroll-delay='0.04'>MakeUp Artist</h3> */}
+       
         <motion.h2 variants={item} data-scroll data-scroll-speed='2' data-scroll-delay='0.04'>It's Fun To Make Things Up</motion.h2>
-        {/* <h2>IT'S FUN TO MAKE THINGS UP</h2> */}
+      
       </Title>
-      <video src={MainVideo} autoPlay loop muted />
+      <video src={MainVideo} type="video/mp4" autoPlay loop muted />
 
     </VideoContainer>
   )

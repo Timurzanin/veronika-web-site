@@ -3,6 +3,7 @@
 export const dark = {
     body: '#351F39', //black shade
     text: '#fff',
+    body2: '#C689C6',
     bodyRgba: '32,32,32',
     textRgba: '255,255,255',
 
